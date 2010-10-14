@@ -1,5 +1,5 @@
-Riker is an mp3 tagger that uses the Echo Nest's Musical Finger Prints (ENMFP): 
-http://blog.echonest.com/post/545323349/the-echo-nest-musical-fingerprint-enmfp
+Riker is an mp3 tagger that uses [http://blog.echonest.com/post/545323349/the-echo-nest-musical-fingerprint-enmfp The Echo Nest's Musical Finger Prints (ENMFP)].
+
 
 You need to have installed the ENMFP before this will work:
 please email enmfp@echonest.com for access to the binaries.
