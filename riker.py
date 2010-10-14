@@ -18,7 +18,6 @@ from pyechonest.util import EchoNestAPIError
 from metadata import Metadata
 
 usage = """
-
 The command line argument, if specified, is a file to update, or a folder full of .mp3 files, each of which will be updated.
 If none is specified, the current directory is used.
 
