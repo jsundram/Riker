@@ -16,7 +16,6 @@ Usage:
 
 python riker.py [file or folder]
 
-The command line argument, if specified, is a file to update, or a folder full of .mp3 files, each of which will be updated.
-If none is specified, the current directory is used.
+The command line argument, if specified, is a file to update, or a folder full of .mp3 files, each of which will be updated. If no argument is specified, the current directory will be used.
 
 The default behavior is to update the ID3 tags if they exist, but never to overwrite existing data.
