@@ -1,0 +1,26 @@
+Riker is an mp3 tagger that uses the Echo Nest's Musical Finger Prints (ENMFP): 
+http://blog.echonest.com/post/545323349/the-echo-nest-musical-fingerprint-enmfp
+
+You need to have installed the ENMFP before this will work:
+please email enmfp@echonest.com for access to the binaries.
+(Response is usually very fast).
+
+Riker uses the ENMFP to find metadata for your mp3 files, and updates them with metadata.
+
+Data sources:
+    Genre, artist, and title come from the Echo Nest
+    Lyrics come from musixmatch (when available)
+    Album art comes from 7digital, via the Echo Nest API.
+
+Usage:
+
+python riker.py [file or folder]
+
+The command line argument, if specified, is a file to update, or a folder full of .mp3 files, each of which will be updated.
+If none is specified, the current directory is used.
+
+The default behavior is to update the ID3 tags if they exist, but never to overwrite existing data.
+
+Dependencies:
+
+eyeD3, ENMFP, python
