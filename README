@@ -9,7 +9,7 @@ Riker uses the ENMFP to find metadata for your mp3 files, and updates them with 
 
 Data sources:
     Genre, artist, and title come from the Echo Nest
-    Lyrics come from musixmatch (when available)
+    Lyrics come from musixmatch (when available). You'll need to set the environment variable MUSIC_MATCH_API_KEY.
     Album art comes from 7digital, via the Echo Nest API.
 
 Usage:
